@@ -173,7 +173,7 @@ Once the artwork masks are created, we must place them on the PCB. It is easiest
 
 With the top copper layer mask artwork in place and aligned, the PCB can now be exposed to UVA light (ideally 395-405nm wavelength) to "burn" the artwork into the photoresist. The source of UV light can be just about anything, including the sun - however, underexposure, overexposure and uneven exposure can lead to more difficulty during the development steps, areas of the board which cannot be developed, uneven feature thicknesses or portions of photoresist coming off the board which should have remained. As such, it is recommended to use a controlled UV light source on a timer, so a repeatable and adjustable amount of even UV exposure can be achieved. The ideal exposure time and intensity can be found in the TDS (technical datasheet) for your chosen photoresist. However, as a general rule, for a 35µm negative photoresist, around 60 seconds of exposure with a 5W UVA source located 15cm away from the PCB is a good place to start.
 
-Switch to the backside of your Viagrid black and repeat this process for the bottom copper layer of the PCB, again ensuring the artwork mask is oriented correctly and not flipped.
+Switch to the backside of your Viagrid blank and repeat this process for the bottom copper layer of the PCB, again ensuring the artwork mask is oriented correctly and not flipped.
 
 #### Development
 

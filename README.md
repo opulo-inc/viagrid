@@ -2,6 +2,9 @@
 
 Viagrid is a PCB template that allows for rapid PCB prototyping with 2-layer boards and factory-made vias. The blank boards have a standardized array of vias already in them; you just select which net they're connected to by cutting out the front and back layers of your board.
 
+> [!NOTE]
+> Viagrid is still in development and is constantly evolving! If you wish to start creating PCBs based on the viagrid template(s), visit the #viagrid channel in the [Discord](https://discordapp.com/invite/TCwy6De) and ask for the latest version of the template!
+
 ## Table of Contents
 [File Prep](#file-prep)<br>
 [Design](#design)<br>
@@ -49,9 +52,15 @@ When it comes time to fabricate your board, you only have to remove copper from 
 
 ### UV DPSS Laser Engraving
 
-Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped Solid State) laser. These are commercially available and getting cheaper by the year. These instructions were prepared using a [Commarker Omni 1 (5W)](https://store.commarker.com/products/omni-1-uv-laser-engraver) however the same company has recently released a similar machine that is fully enclosed, called the [Omni X](https://store.commarker.com/products/omni-x-uv-laser-engraver).
+> [!WARNING]
+> Lasers can damage or destroy your eyesight in milliseconds if you're not careful. Always wear certified, trustworthy eye protection MATCHED TO YOUR SPECIFIC LASER WAVELENGTH AND POWER obtained from a reputable source such as ThorLabs. Keep any guards or protective filters in place, and follow all safe operating instructions provided by the manufacturer of your machine.
 
 > [!WARNING]
+> Lasers can ignite a surprising range of materials quickly and without warning, resulting in dangerous fires!  Never leave your laser unattended! Always keep a carbon dioxide fire extinguisher near your machine that's easily accessible!
+
+Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped Solid State) laser. These are commercially available and getting cheaper by the year. These instructions were prepared using a [Commarker Omni 1 (5W)](https://store.commarker.com/products/omni-1-uv-laser-engraver) however the same company has recently released a similar machine that is fully enclosed, called the [Omni X](https://store.commarker.com/products/omni-x-uv-laser-engraver).
+
+> [!NOTE]
 > We are asking a lot of this laser for this application. Any slight alignment error can result in inconsistent results across the work area.
 > In my case, the laser galvo head was ever so slightly at an angle relative to the work area, which caused my cuts to be clean in one area, but barely work in others.
 > To rectify this, I recommend barely loosening the three screws holding the galvo head onto the laser body, rotating the head until both sides are the same height from the work area, then tightening back down. I saw marked improvement to cutting performance after performing this adjustment.
@@ -72,7 +81,7 @@ Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped 
 
     ![](img/tracing.gif)
 
-> [!WARNING]
+> [!NOTE]
 > If you're feeling like it's impossible to get the rectangle perfectly illuminating in all four corners, it's likely you need to recalibrate your lens, or adjust the scale of your laser.
 
 1.  Tighten down the thumbscrews.

@@ -53,7 +53,7 @@ When it comes time to fabricate your board, you only have to remove copper from 
 ### UV DPSS Laser Engraving
 
 > [!WARNING]
-> Lasers can damage or destroy your eyesight in milliseconds if you're not careful. Always wear certified, trustworthy eye protection MATCHED TO YOUR SPECIFIC LASER WAVELENGTH AND POWER obtained from a reputable source such as ThorLabs. Keep all guards and protective filters in place when the laser is active, and follow all safe operating instructions provided by the manufacturer of your machine.
+> Lasers can damage or destroy your eyesight in milliseconds if you're not careful. Always wear certified, trustworthy eye protection MATCHED TO YOUR SPECIFIC LASER WAVELENGTH AND POWER and obtained from a reputable source such as ThorLabs when working with or around your laser. Keep all guards and protective filters in place when the laser is active, and follow all safe operating instructions provided by the manufacturer of your machine.
 
 > [!WARNING]
 > Lasers can ignite a surprising range of materials quickly and without warning, resulting in dangerous fires!  Never leave your laser unattended! Always keep a carbon dioxide fire extinguisher near your machine that's easily accessible!

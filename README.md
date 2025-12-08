@@ -1,5 +1,5 @@
 # Viagrid
-![](img/viagrid_logo.png)
+![](img/viagrid_logo_noborder.png)
 
 Viagrid is a PCB template that allows for rapid PCB prototyping with 2-layer boards and factory-made vias. The blank boards have a standardized array of vias already in them; you just select which net they're connected to by cutting out the front and back layers of your board.
 

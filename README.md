@@ -1,7 +1,7 @@
 # Viagrid
 ![](img/viagrid_logo_noborder.png)<br><br>
 
-ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in grid patterns, allowing for rapid 2 layer PCB prototyping and low-volume manufacturing, even at home. Instead of placing vias ad-hoc during routing, existing grid vias are assigned nets as needed and routed to in-place. Unused vias can remain part of the ground pour, orphaned by assigning an unused net, or converted to 0.2mm drilled holes. Viagrid blanks can be process with UV DPSS laser engravers, MLL machines and chemical etching, or traditional CNC milling.<br><br>
+ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in grid patterns, allowing for rapid 2 layer PCB prototyping and low-volume manufacturing, even at home. Instead of placing vias ad-hoc during routing, existing grid vias are assigned nets as needed and routed to in-place. Unused vias can remain part of the ground pour, orphaned by assigning an unused net, or converted to 0.2mm drilled holes. Viagrid blanks can be processed with a UV DPSS laser engravers, MLL machine and chemical etching, or with traditional CNC milling.<br><br>
 
 > [!NOTE]
 > Viagrid is still in development and is constantly evolving! If you wish to start creating PCBs based on a viagrid template with any status other than Complete in the table below, come and visit the #viagrid channel in the [Opulo Discord](https://discordapp.com/invite/TCwy6De) and ask for the latest version of the template you want to work with!

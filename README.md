@@ -10,7 +10,7 @@ ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in g
 
 | Blank Name  | Status | Vias | Dimensions | Mounting ⌀ | Enclosure | Preview |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| [ViaGrid 9055 Standard](https://github.com/opulo-inc/viagrid/tree/main/VIAGRID%20BLANK%20FILES/9055%20STANDARD) | Complete  | 180 | 90 x 55mm | Yes | Hammond 1591XXB Series | [Click Here](VIAGRID%20BLANK%20FILES/9055%20STANDARD/ViaGrid_9055_Standard.png) |
+| [ViaGrid 9055 Standard](https://github.com/opulo-inc/viagrid/tree/main/VIAGRID%20BLANK%20FILES/9055%20STANDARD) | Complete  | 180 | 90 x 55mm | Yes | Hammond 1591XXB Series | [Click Here](VIAGRID%20BLANK%20FILES/9055%20STANDARD/VIAGRID_9055_STANDARD.png) |
 | ViaGrid 9055 Dense | Planned | TBD | 90 x 55mm | Yes | Hammond 1591XXB Series | Not Yet Available |
 | ViaGrid 6040 Standard | Planned | 86 | 60 x 40mm | Yes | Hammond 1551H Series | Not Yet Available |
 | ViaGrid 6040 Dense | Planned | TBD | 60 x 40mm | Yes | Hammond 1551H Series | Not Yet Available |

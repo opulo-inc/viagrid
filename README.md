@@ -18,7 +18,7 @@ ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in g
 | ViaGrid Arduino Shield | Planned | TBD | 66.04 x 53.34mm | Yes | Various Existing | Not Yet Available |
 | ViaGrid Guitar Pedal | Planned | TBD | 120 x 70mm | Yes | TBD | Not Yet Available |
 
-<br><b>Below is a preview of the ViaGrid 9055 Standard blank describing some quaslity of life features:<b><br>
+<br><b>Below is a preview of the ViaGrid 9055 Standard blank describing some quality of life features:<b><br>
 <br>![](img/viagrid_features.png)
 
 ## Table of Contents

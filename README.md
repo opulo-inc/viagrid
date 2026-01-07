@@ -1,7 +1,7 @@
 # Viagrid
 ![](img/viagrid_logo_noborder.png)<br><br>
 
-ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in grid patterns, allowing for rapid 2 layer PCB prototyping and low-volume manufacturing, even at home. Instead of placing vias ad-hoc during routing, existing grid vias are assigned nets as needed and routed to in-place. Unused vias can remain part of the ground pour, orphaned by assigning an unused net, or converted to 0.2mm drilled holes. Viagrid blanks can be processed with a UV DPSS laser engravers, MLL machine and chemical etching, or with traditional CNC milling.<br><br>
+ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in grid patterns, allowing for rapid 2 layer PCB prototyping and low-volume manufacturing, even at home. Instead of placing vias ad-hoc during routing, existing grid vias are assigned nets as needed and routed to in-place. Unused vias can remain part of the ground pour, orphaned by assigning an unused net, or converted to simple drilled holes. Viagrid blanks can be processed with a UV DPSS laser engravers, MLL machine and chemical etching, or with traditional CNC milling.<br><br>
 
 > [!NOTE]
 > Viagrid is still in development and is constantly evolving! If you wish to start creating PCBs based on a viagrid template who's status is not Complete in the table below, come and visit the #viagrid channel in the [Opulo Discord](https://discordapp.com/invite/TCwy6De) and ask for the latest version of the template you want to work with!
@@ -62,7 +62,7 @@ When it comes time to fabricate your board, you only have to remove copper from 
 ## Fabrication Methods
 
 [UV DPSS Laser Engraving](#uv-dpss-laser-engraving)<br>
-[Chemical Etching](#chemical-etching)<br>
+[MLL & Chemical Etching](#chemical-etching)<br>
 [CNC Machining](#cnc-machining)<br>
 <br/>
 
@@ -143,7 +143,7 @@ Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped 
 - *3mil traces.*
 - *3mil spaces.*
 - *Soldermask possible.*
-- *Through-hole NOT possible.*
+- *Through-hole NOT possible without separate CNC mill.*
 - *Flexible PCBs possible.*
 - *Total average time from gerber to bare double-sided PCB: 20 minutes.*
 - *Total average time from gerber to double-sided PCB with glossy soldermask (PET sheet): 25 minutes.*
@@ -153,7 +153,7 @@ Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped 
 
 #### Overview
 
-To start off with, you don't have to be an electronics or chemical engineer to chemical etch your own PCBs at home or small business. It's easy and safe if you are careful, if you can follow instructions and if you take your time. With that said:
+You don't have to be an electronics or chemical engineer to acid etch your own PCBs at home or small business. It's easy and safe if you are careful, if you can follow instructions and if you take your time. With that said:
 
 > [!WARNING]
 > Chemical etching of any PCB does require the use of certain chemicals which can be unsafe if not handled and disposed of properly. Generally, these will be FeCl3 (ferric chloride), NaOH (sodium hydroxide, commonly known as lye) and liquid tin. Do not mix chemicals, and always wear the proper PPE and follow all handling instructions recommended by the manufacturers of the equipment and chemicals you are using!

@@ -1,12 +1,13 @@
 # Viagrid
-![](img/viagrid_logo_noborder.png)<br><br>
 
-ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in grid patterns, allowing for rapid 2 layer PCB prototyping and low-volume manufacturing, even at home. Instead of placing vias ad-hoc during routing, existing grid vias are assigned nets as needed and routed to in-place. Unused vias can remain part of the ground pour, orphaned by assigning an unused net, or converted to simple drilled holes. Viagrid blanks can be processed with a UV DPSS laser engravers, MLL machine and chemical etching, or with traditional CNC milling.<br><br>
+![](img/viagrid_logo_noborder.png)
+
+ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in grid patterns, allowing for rapid 2 layer PCB prototyping and low-volume manufacturing, even at home. Instead of placing vias ad-hoc during routing, existing grid vias are assigned nets as needed and routed to in-place. Unused vias can remain part of the ground pour, orphaned by assigning an unused net, or converted to simple drilled holes. Viagrid blanks can be processed with a UV DPSS laser engravers, MLL machine and chemical etching, or with traditional CNC milling.
 
 > [!NOTE]
 > Viagrid is still in development and is constantly evolving! If you wish to start creating PCBs based on a viagrid template who's status is not Complete in the table below, come and visit the #viagrid channel in the [Opulo Discord](https://discordapp.com/invite/TCwy6De) and ask for the latest version of the template you want to work with!
 >
-<br><b>Currently, only the 9055 Standard blank is complete.<b> Other blank sizes and densities are planned:<br><br>
+**Currently, only the 9055 Standard blank is complete.** Other blank sizes and densities are planned:
 
 | Blank Name  | Status | Vias | Dimensions | Mounting ⌀ | Enclosure | Preview |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -18,15 +19,19 @@ ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in g
 | ViaGrid Arduino Shield | Planned | TBD | 66.04 x 53.34mm | Yes | Various Existing | Not Yet Available |
 | ViaGrid Guitar Pedal | Planned | TBD | 120 x 70mm | Yes | TBD | Not Yet Available |
 
-<br><b>Below is a preview of the ViaGrid 9055 Standard blank describing some quality of life features:<b><br>
-<br>![](img/viagrid_features.png)
+**Below is a preview of the ViaGrid 9055 Standard blank describing some quality of life features:**
+![](img/viagrid_features.png)
 
 ## Table of Contents
-[File Prep](#file-prep)<br>
-[Design](#design)<br>
-[File Export](#file-export)<br>
+
+[File Prep](#file-prep)
+
+[Design](#design)
+
+[File Export](#file-export)
+
 [Fabrication Methods](#fabrication-methods)
-<br><br>
+
 
 ![](img/vg_blank.JPG)
 ![](img/vg_cut.JPG)
@@ -61,10 +66,12 @@ When it comes time to fabricate your board, you only have to remove copper from 
 
 ## Fabrication Methods
 
-[UV DPSS Laser Engraving](#uv-dpss-laser-engraving)<br>
-[MLL & Chemical Etching](#chemical-etching)<br>
-[CNC Machining](#cnc-machining)<br>
-<br/>
+[UV DPSS Laser Engraving](#uv-dpss-laser-engraving)
+
+[MLL & Chemical Etching](#chemical-etching)
+
+[CNC Machining](#cnc-machining)
+
 
 ### UV DPSS Laser Engraving
 
@@ -95,7 +102,7 @@ Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped 
 10. Select the purple and brown rectangles, right click, and lock them.
 11. Loosen the four gold thumbscrews on the alignment jig. You can now do fine adjustment to get the laser framing perfectly aligned with the Viagrid board. The board's corners are designed to have a small path of exposed FR4 that will illuminate when it's perfectly aligned. Adjust until you get all four corners of the Viagrid blank to light up, as shown below.
 
-    ![](img/tracing.gif)
+![](img/tracing.gif)
 
 > [!NOTE]
 > If you're feeling like it's impossible to get the rectangle perfectly illuminating in all four corners, it's likely you need to recalibrate your lens, or adjust the scale of your laser.
@@ -137,7 +144,7 @@ Viagrid boards can be easily and autonomously cut using a UV DPSS (Diode Pumped 
 
 ### Chemical Etching
 
-![](img/chemical_etching_overview.png)<br>
+![](img/chemical_etching_overview.png)
 
 #### Achieveable Results:
 - *3mil traces.*
@@ -177,7 +184,7 @@ Chemical etching of PCBs can be broken down into these steps:
 
 #### Photoresist and Artwork Masks
 
-![](img/chemical_etching_masking.png)<br>
+![](img/chemical_etching_masking.png)
 
 When chemically etching PCBs, a protective layer must exist over the copper areas we wish to keep. This is accomplished with a UV-sensitive acrylic polymer film, otherwise known as a UV photoresist. Both negative and positive photoresists exist. In simple terms, negative photoresist will "harden" when exposed to UV light, so the light must hit the areas of copper we wish to keep. Positive photoresist will "soften" when exposed to UV light, so the light must hit the areas of copper we wish to remove. Both types of coatings can achieve excellent detail and resolution if properly applied and exposed, and will never be the limiting factor for the quality of your DIY PCBs. Photoresist films are capable of tenting even large holes (>= ⌀5mm) and will easily protect the vias from etching.
 
@@ -194,7 +201,7 @@ Once the artwork masks are created, we must place them on the PCB. It is easiest
 
 #### UV Exposure
 
-![](img/chemical_etching_exposure.png)<br>
+![](img/chemical_etching_exposure.png)
 
 With the top copper layer mask artwork in place and aligned, the PCB can now be exposed to UVA light (ideally 395-405nm wavelength) to "burn" the artwork into the photoresist. The source of UV light can be just about anything, including the sun - however, underexposure, overexposure and uneven exposure can lead to more difficulty during the development steps, areas of the board which cannot be developed, uneven feature thicknesses or portions of photoresist coming off the board which should have remained. As such, it is recommended to use a controlled UV light source on a timer, so a repeatable and adjustable amount of even UV exposure can be achieved. The ideal exposure time and intensity can be found in the TDS (technical datasheet) for your chosen photoresist. However, as a general rule, for a 35µm negative photoresist, around 60 seconds of exposure with a 5W UVA source located 15cm away from the PCB is a good place to start.
 
@@ -202,7 +209,7 @@ Switch to the backside of your Viagrid blank and repeat this process for the bot
 
 #### Development
 
-![](img/chemical_etching_development.png)<br>
+![](img/chemical_etching_development.png)
 
 Once both sides have been exposed, remove the artwork masks from the Viagrid PCB. We are now ready to develop the PCB, which for most negative resists is done with a 1% Na2CO3 (sodium carbonate) to warm water solution. (For positive resists, follow the manufacturer instructions.) There are various ways to do this, but we will go over the most accessible method here:
 
@@ -221,14 +228,14 @@ We are now ready to etch the board!
 
 #### Etching
 
-![](img/chemical_etching_etching.jpg)<br>
+![](img/chemical_etching_etching.jpg)
 
 There are various chemicals which can be used to etch PCBs, but the most common and flexible is FeCl3 (ferric-chloride), with the main downside being it will stain your skin orange for a while if you do get some on you (wash your skin properly right away if this happens - it is an acid after all!)
 
-The most accessible method of DIY etching is the sponge method detailed here:<br>
+The most accessible method of DIY etching is the sponge method detailed here:<br/>
 https://www.instructables.com/Sponge-Ferric-Chloride-Method-Etch-Circuit-Bo/
 
-For more automated and faster etching, it is recommended to purchase a bubble etcher such as this rebranded Kinsten ET20:<br>
+For more automated and faster etching, it is recommended to purchase a bubble etcher such as this rebranded Kinsten ET20:<br/>
 https://www.circuitspecialists.com/et20
 
 In both cases, etching of both sides of the Viagrid PCB can be achieved in under 10 minutes with fresh FeCl3. The small remaining amount of FeCl3 on the PCB after etching should be removed with paper towel. Once dry, the very small amount on the paper towel is safe to dispose of with regular garbage.
@@ -238,7 +245,7 @@ In both cases, etching of both sides of the Viagrid PCB can be achieved in under
 
 #### Stripping
 
-![](img/chemical_etching_stripping.png)<br>
+![](img/chemical_etching_stripping.png)
 
 The process of removing the "hardened" UV photoresist is very similar to the development steps, but with 1% NaOH (sodium hydroxide/lye) to cold water solution.
 
@@ -262,7 +269,7 @@ Congratulations, you now have a complete, shiny, bare PCB ready to use! Any expo
 
 #### Soldermask & Silkscreen
 
-![](img/chemical_etching_soldermask.png)<br>
+![](img/chemical_etching_soldermask.png)
 
 A soldermask jig and process specific for Viagrid blanks is in late-stage development, which keeps your fingers clean and provides high quality results.
 
@@ -272,9 +279,9 @@ Soldermask can be removed via laser or developed similar to the UV photoresist.
 
 #### Liquid Tin
 
-![](img/chemical_etching_liquid_tin.png)<br>
+![](img/chemical_etching_liquid_tin.png)
 
-The recommended brand of liquid tin is MG Chemicals 421A:<br>
+The recommended brand of liquid tin is MG Chemicals 421A:<br/>
 https://mgchemicals.com/products/circuit-board-design/electroless-plating/421a-liquid-tin/
 
 > [!WARNING]

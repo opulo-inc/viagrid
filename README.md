@@ -6,7 +6,7 @@ ViaGrid is a set of standardized PCB blank templates with pre-embedded vias in g
 > [!NOTE]
 > Viagrid is still in development and is constantly evolving! If you wish to start creating PCBs based on a viagrid template who's status is not Complete in the table below, come and visit the #viagrid channel in the [Opulo Discord](https://discordapp.com/invite/TCwy6De) and ask for the latest version of the template you want to work with!
 >
-<br><b>Currently, only the 9055 Standard blank is complete.<b> Other blank sizes and densities are planned:<br><br>
+<br><b>Currently, only the 9055 Standard blank is complete.</b> Other blank sizes and densities are planned:<br><br>
 
 | Blank Name  | Status | Vias | Dimensions | Mounting ⌀ | Enclosure | Preview |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |

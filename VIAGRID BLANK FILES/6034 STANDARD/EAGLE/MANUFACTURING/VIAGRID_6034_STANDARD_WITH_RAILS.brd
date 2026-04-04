@@ -1073,6 +1073,7 @@ design rules under a new name.</description>
 <wire x1="-0.6" y1="28" x2="4" y2="28" width="0" layer="19" extent="1-1"/>
 <wire x1="60.6" y1="6" x2="56" y2="6" width="0" layer="19" extent="1-1"/>
 <wire x1="60.6" y1="28" x2="56" y2="28" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
